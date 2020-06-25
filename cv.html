@@ -4,32 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> curriculum vitae </title>
-    <style type = "text/css">
-        /* Text Setting */
-        p{ margin: 0px 50px 0px 50px}
-        p.detail { color :#89CFF0;font-family: 'Times New Roman' ; margin-top : 5px ;margin-right:10px}
-        .isi { color : #007BA7;font-size: 20px;}
-        h1 {color : rgb(0, 190, 190) ; margin-left: 50px; font: size 70;;}
-        h3 {margin-bottom: 5px;}
-        h4 {margin-bottom: 5px; font-size:medium;}
-        p.edu{color :darkturquoise; margin-top : 5px ;font-family: Arial;}
-        .hilang {display:none;}
-        .cphilang {display: hidden;  opacity: 0;  transition: opacity 0.25s ;}
-        /* Dividing Column */
-        *{ box-sizing:border-box ;}
-        .column {float: left;padding: 10px}
-        .left { width : 40% ; font-size : small; padding-top:1cm}
-        .mid {width : 40% ; font-size :small; padding-top:15px; margin-top: 35px;}
-        .right{width:20%}
-        .row:after {content: "";display:table;clear: both;}
-        /* Images setting */
-        img{ margin-left: 0.2cm}
-        /* hovering */
-        #calend:hover + span {display: inline;}
-        #alamat:hover + span {display: inline;}
-        #cpku:hover + h2 {display: block; opacity: 1;}
-        
-    </style>
+    <link rel="stylesheet" type="text/css" href="styleku.css">
    
 </head>
 <body>
@@ -116,29 +91,31 @@
                 </p>
             </h3>
             <br style="line-height:5px;"> 
-            <h1>
+            <h1 id="expku">
                 Committee and Organization Experience
             </h1>
             <h4>
-                <ul style="margin-left: 25px; color: cornflowerblue;">
-                    <li>Sie Konsumsi Buka Bersama Taekwondo Racata Jakarta 2016</li>
-                    <li>Sie Konsumsi HUT Gereja Santo Bartolomeus tahun 2017</li>
-                    <li>Sie Perwasitan Intern Cup IBC 2018</li>
-                    <li>Sie Perwasitan Dies Natalis ITS ke-58 cabor Bulutangkis</li>
-                    <li>Sie Perlengkapan Tcation 2018</li>
-                    <li>Sie Perwasitan POMITS cabor Bulutangis 2019</li>
-                    <li>Sie Acara 3C KMK ITS 2019</li>
-                    <li>Sie Perwasitan ITS OPEN 2019</li>
-                    <li>Sie Perlengkapan OKKBK Informatika 2019</li>
-                    <li>Staff PSDM KMK Servizio 2019/2020</li>
-                    <li>Sie Perlengkapan Tcarnival</li>
-                    <li>Sie Perwasitan Dies Natalis ITS ke-59 cabor Bulutangkis</li>
-                    <li>BPH Sie Keamanan dan Perizinan Schematics ITS 2019</li>
-                    <li>Sie Perwasitan Dies Natalis ITS ke-59 cabor Bulutangkis</li>
-                    <li>Sie Perlengkapan dan Dokumentasi Tcation 2019</li>
-                    <li>Sie Perwasitan ITS OPEN 2020</li>
-                    <li>Banyubramanta ITS Robotic Team</li>
-                </ul>
+                <div class="classexp"><a href="#"></a>
+                    <ul  style="margin-left: 25px; color: cornflowerblue;" >
+                        <li>Sie Konsumsi Buka Bersama Taekwondo Racata Jakarta 2016</li>
+                        <li>Sie Konsumsi HUT Gereja Santo Bartolomeus tahun 2017</li>
+                        <li>Sie Perwasitan Intern Cup IBC 2018</li>
+                        <li>Sie Perwasitan Dies Natalis ITS ke-58 cabor Bulutangkis</li>
+                        <li>Sie Perlengkapan Tcation 2018</li>
+                        <li>Sie Perwasitan POMITS cabor Bulutangis 2019</li>
+                        <li>Sie Acara 3C KMK ITS 2019</li>
+                        <li>Sie Perwasitan ITS OPEN 2019</li>
+                        <li>Sie Perlengkapan OKKBK Informatika 2019</li>
+                        <li>Staff PSDM KMK Servizio 2019/2020</li>
+                        <li>Sie Perlengkapan Tcarnival</li>
+                        <li>Sie Perwasitan Dies Natalis ITS ke-59 cabor Bulutangkis</li>
+                        <li>BPH Sie Keamanan dan Perizinan Schematics ITS 2019</li>
+                        <li>Sie Perwasitan Dies Natalis ITS ke-59 cabor Bulutangkis</li>
+                        <li>Sie Perlengkapan dan Dokumentasi Tcation 2019</li>
+                        <li>Sie Perwasitan ITS OPEN 2020</li>
+                        <li>Banyubramanta ITS Robotic Team</li>
+                    </ul>
+                </div>
             </h4>
         </div>
         <!-- Right Column -->
@@ -147,9 +124,6 @@
             
         </div>
     </div>
-    <script>
-        var d = new Date();
-        document.getElementsById("waktu").innerHTML = d;
-    </script>
+    <script src="content.js" > </script>
 </body>
 </html>

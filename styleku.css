@@ -51,6 +51,7 @@ h2 img{
     border-width: 2px; 
     border-color: rgb(32, 151, 206);
     background-color: whitesmoke;
+    
 }
 .mid {width : 36% ; 
     font-size :small;
@@ -61,6 +62,7 @@ h2 img{
     margin-left:1%;
     background-color: whitesmoke;
     margin-top: 20%;
+    text-align: center;
 }
 .row:after {content: "";display:table;clear: both;}
 /* Images setting */

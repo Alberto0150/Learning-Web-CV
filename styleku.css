@@ -7,6 +7,7 @@ head{
 
 body{
     height: 100%;
+    background-image: repeating-linear-gradient(90deg, rgb(95, 152, 225) 0px, rgb(95, 152, 225) 10px,rgb(115, 164, 229) 10px, rgb(115, 164, 229) 20px,rgb(135, 175, 233) 20px, rgb(135, 175, 233) 30px,rgb(214, 222, 250) 30px, rgb(214, 222, 250) 40px,rgb(174, 199, 242) 40px, rgb(174, 199, 242) 50px,rgb(155, 187, 238) 50px, rgb(155, 187, 238) 60px,rgb(194, 210, 246) 60px, rgb(194, 210, 246) 70px);
 }
 
 p{ 
@@ -15,7 +16,7 @@ p{
 
 .left p{
     color:#007BA7; 
-    font-size:35px ; 
+    font-size: 37px ; 
     padding-top: 20px; 
     font-weight: 1000;
 }
@@ -39,17 +40,28 @@ h2 img{
     font-size: 50px;
 }
 /* drop using transition */
-.cphilang {display: hidden;  opacity: 0;  transition: opacity 0.25s ;}
+.cphilang {display: hidden;  opacity: 0;  transition: 0.25s ;}
 /* Dividing Column */
 *{ box-sizing:border-box ;}
-.column {float: left;padding: 10px}
-.left { width : 36% ; font-size : small; padding-top:1cm ; border-right-style: solid ;border-width: 2px; border-color: rgb(32, 151, 206);}
+.column {float: left;padding: 10px;}
+.left { width : 36% ; 
+    font-size : small; 
+    padding-top:1cm ; 
+    border-right-style: solid ;
+    border-width: 2px; 
+    border-color: rgb(32, 151, 206);
+    background-color: whitesmoke;
+}
 .mid {width : 36% ; 
     font-size :small;
     height: 100%;
 }
 
-.right{width:27%;margin-left:10px;}
+.right{width:27%;
+    margin-left:1%;
+    background-color: whitesmoke;
+    margin-top: 20%;
+}
 .row:after {content: "";display:table;clear: both;}
 /* Images setting */
 img{ margin-left: 0.2cm}
